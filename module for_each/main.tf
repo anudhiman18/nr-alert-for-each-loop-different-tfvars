@@ -1,6 +1,6 @@
 
 resource "newrelic_alert_policy" "my_policy" {
-  name = "anu_policy"
+  name = "policy"
 }
 
 resource "newrelic_nrql_alert_condition" "anu_condition" {
